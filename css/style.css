@@ -1,0 +1,249 @@
+@import url(./null.css);
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=:wght@400;500&display=swap');
+*{
+   font-family: 'Roboto', sans-serif;
+   
+}
+header{
+   padding: 28px 0;
+   z-index: 2; 
+
+}
+.content{
+   background-color: #EEEFF1;
+   height: 100vh;
+}
+.conteiner{
+   max-width: 80%;
+    margin: 0 auto;
+   overflow: hidden;
+}
+
+.header__nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between
+
+}
+.header__nav a{
+color: #000;
+font-size: 16px;
+font-weight: 700;
+scroll-behavior: smooth;
+
+}
+
+.header__nav ul{
+   display: flex;
+   justify-content: space-between;
+
+}
+.header__nav ul li{
+   margin: 0 42px 0 0;
+}
+.header__nav ul li:last-child{
+   margin: 0;
+}
+
+/* midle */
+
+.wrapper__disign{
+   padding: 160px 21px 146px 55px;
+   display: flex;
+   column-gap: 221px;
+}
+.disign__intro h1{
+   font-size: 48px;
+   font-family: 'Roboto', sans-serif;
+   padding-bottom: 40px;
+}
+.paragraph{
+   font-size: 16px;
+   color: #727272;
+   padding-bottom: 40px;
+}
+.writeme{
+   width: 225px;
+   height: 65px;
+   font-size: 16px;
+   background-color: #34547A;
+   color:#fff;
+}
+
+/* about */
+.about__height{
+   height: 30vh;
+}
+.about__me{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding-left: 70px;
+
+}
+.about__me h2{
+   font-size: 32px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+
+/* project */
+#project{
+   background-color: #34547A;
+
+}
+.project__height{
+   height: 20vh;
+   display: flex;
+   justify-content: center;   
+   align-items: center;
+
+
+}
+.row__project{
+   column-gap: 29px;
+   justify-content: center;   
+   align-items: center; 
+  
+}
+.box{
+ display: flex;
+ column-gap: 20px;
+}
+.box img{
+    width: 100%;
+}
+
+
+/* project */
+   .skills__wrap{
+      padding: 25px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50vh;
+   }
+   .my__skills{
+      width: 50%;
+   }
+   .my__skills h2{
+      font-size: 32px;
+   }
+   .skills__parent{
+      width: 80%;
+      border: 2px solid #C4C4C4;
+      background-color: #C4C4C4;
+   }
+   .skills__child{
+      width: 80%;
+      border: 2px solid #34547A;
+   }
+   .works_img img{
+      overflow: hidden;
+      width: 100%;
+      height: 35vh;
+     
+   }
+   iframe{
+      display: block;
+      height: 60vh;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      
+   }
+.conteiner__about{
+   padding: 20px;
+   overflow: hidden;
+
+}
+
+
+
+.col-3{
+   padding: 0 ;
+
+}
+
+#picture{
+   width: 100%;
+   
+}
+.picture__wrap{
+  
+}
+.picture__row{
+   margin: 0;
+}
+#picture img {
+   width: 100%;
+   height: 100%;
+}  
+.box{
+   height: 100%;
+}
+.microsoft__img img{
+   width: 100%;
+}
+.row__microsoft{
+   padding: 70px 0px;
+   column-gap: 30px;
+   flex-wrap: nowrap;
+}
+
+#footer{
+   background-color: #EEEFF1;
+}
+
+.row__button{
+   justify-content: center;
+   align-items: center;
+   padding-left: 70px;
+ 
+}
+.button__style{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   column-gap: 2px;
+}
+.button__style input{
+   padding: 18px;
+   background-color: #fff;
+   height: 5vh;
+   width: 285px;
+}
+textarea{
+   margin-top: 20px;
+   margin-bottom: 50px;
+   padding: 18px;
+   resize: none;
+   width: 575px;
+}
+.flex__footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 50px;
+}
+.wrap__footer{
+   display: flex;
+   justify-content: space-between;
+   height: 10vh;
+   align-items: center;
+}
+.wrap__footer h3,p{
+   color: #fff;
+}
+
+
+.footer__logo ul{
+   display: flex; 
+  
+}
+#foooter{
+   padding: 10px;
+   background-color: #34547A;
+}
